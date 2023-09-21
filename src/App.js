@@ -7,31 +7,31 @@ function App() {
       <div className="App">
         {
         
-        <div class="card">
+        <div class="wrapper">
+          
+          <div class="card">
 
-          <title>This card has a button and a image</title>
+            <title>This card has a button and a image</title>
+          
+            <p>The image is a meme and says "I know HTML How to meet ladies"</p>
+            
+            <img id="HTML img" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/i-know-html-how-to-meet-ladies-funny-web-designer-print-noirty-designs.jpg" alt="HTML is fun"/>
+
+              
+              <a href="http://hax.psu.edu" target="http://hax.psu.edu">
+                <button class="button"> Details </button> 
+              </a>  
+
+            
+
+          </div>
+
+          <button class="dup-btn"> Duplicate </button>
+          <button class="change-name-btn"> Change Name </button>
+          <button class="change-color-btn"> Change Color </button>
+          <button class="del-btn"> Delete </button>
         
-          <p>The image is a meme and says "I know HTML How to meet ladies"</p>
-          
-          <img id="HTML img" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/i-know-html-how-to-meet-ladies-funny-web-designer-print-noirty-designs.jpg" alt="HTML is fun"/>
-
-            
-            <a href="http://hax.psu.edu" target="http://hax.psu.edu">
-              <button type="button" id="btn-details"> Details </button> 
-            </a>  
-
-            
-
-            /* duplicate
-             change name 
-             change color
-             delete 
-             
-             */
-          
-
         </div>
-          
         
         /* <h1>Hello World!</h1>
         <h1>Welcome to my card</h1>
